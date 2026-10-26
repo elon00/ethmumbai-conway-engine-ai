@@ -1,0 +1,9 @@
+[package]
+name = "ethmumbai-conway-engine-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "64-bit non-linear invariant state engine on Ethereum L2"
+license = "MIT"
+
+[dependencies]

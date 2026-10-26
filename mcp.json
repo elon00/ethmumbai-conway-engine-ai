@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "ethmumbai-conway-engine-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Arbitrum / Ethereum L2",
+        "PROJECT_TICKER": "EMCONWAY"
+      },
+      "tools": [
+        {
+          "name": "verify_emconway_invariants",
+          "description": "Verifies deterministic invariants for ETHMumbai Conway Engine AI on Arbitrum / Ethereum L2."
+        },
+        {
+          "name": "execute_emconway_action",
+          "description": "Executes authenticated Invariant Engine state transition."
+        }
+      ]
+    }
+  }
+}
